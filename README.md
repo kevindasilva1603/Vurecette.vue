@@ -29,7 +29,6 @@ Soutenance, faite sur mon Notion. Je précise que j'ai utiliser l'api pour géne
 
 Cette explication détaille le fonctionnement interne du composant **`QuestionBox`** de votre quiz Vue.js, en mettant en lumière les principaux aspects de sa structure, de sa logique, et de son style.
 
-https://s.gravatar.com/avatar/2b3a6e9a1891e86949890418b46efc21?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Ffl.png
 
 **You**
 
