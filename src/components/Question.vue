@@ -17,7 +17,7 @@
                     @click="selectAnswer(index)"
                     :class="{ 'bg-info': selectedIndex === index, 'bg-success': answered && index === correctIndex, 'bg-danger': answered && index !== correctIndex && selectedIndex === index }"
                 >
-                    {{ answer }}
+                     {{ answer }}
                 </a>
 
             </div>
@@ -27,7 +27,7 @@
                 @click="submitAnswer"
                 :disabled="selectedIndex === null || answered"
             >
-                Soumettre
+                 Soumettre
             </button>
 
             <button class="btn btn-success mt-3" @click="next">Suivant</button>
@@ -54,13 +54,13 @@ answers[i]]; } this.shuffledAnswers = answers; }, selectAnswer(index) { if (!thi
 
 <style scoped>
 .selected {
-    background-color: lightblue !important;
+    background-color: rgb(0, 182, 242) !important;
 }
 .correct {
-    background-color: lightgreen !important;
+    background-color: rgb(51, 113, 51) !important;
 }
 .incorrect {
-    background-color: red !important;
+    background-color: rgb(143, 0, 0) !important;
 }
 </style>
 
