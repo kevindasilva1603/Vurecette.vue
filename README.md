@@ -24,21 +24,8 @@ Soutenance, faite sur mon Notion. Je précise que j'ai utiliser l'api pour géne
     - Une méthode est définie pour mélanger les réponses afin d'éviter de présenter les réponses dans un ordre prévisible à chaque fois.
 10. **Sélection et soumission des réponses :**
     - Les méthodes **`selectAnswer`** et **`submitAnswer`** gèrent la sélection des réponses et la logique de soumission, y compris la vérification de la réponse et la mise à jour du score.
-11. **Styles avec la balise `<style>` :**
-    - La partie style utilise des classes CSS pour modifier visuellement les réponses sélectionnées, correctes, et incorrectes après la soumission, en utilisant des couleurs spécifiques pour chaque état.
-
-Cette explication détaille le fonctionnement interne du composant **`QuestionBox`** de votre quiz Vue.js, en mettant en lumière les principaux aspects de sa structure, de sa logique, et de son style.
 
 
-**You**
-
-fais pour tout les fichier question vue.box App.vue main.js etc
-
-ChatGPT
-
-**ChatGPT**
-
-Allons-y, décomposons chaque fichier et leur rôle dans votre projet Vue.js de quiz.
 
 ### **Pour `App.vue` :**
 
@@ -52,5 +39,3 @@ Allons-y, décomposons chaque fichier et leur rôle dans votre projet Vue.js de 
     - Déclaration de variables telles que **`questions`**, **`index`**, **`numCorrect`**, et **`total`** pour stocker l'état global du quiz.
 5. **Logique métier dans `<script>` :**
     - Importation des composants nécessaires et définition des méthodes pour naviguer entre les questions et gérer les réponses.
-6. **Stylisation avec `<style>` :**
-    - Définition des styles globaux pour l'application, comme la police et les marges.
